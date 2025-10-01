@@ -6,7 +6,7 @@ CLI UI library for Swift languege
 
 This project is licensed under the [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [LICENSE](LICENSE) file for details.
 
-    Note: This is free software, and you are welcome to redistribute it under certain conditions. This program comes with ABSOLUTELY NO WARRANTY.
+*Note: This is free software, and you are welcome to redistribute it under certain conditions. This program comes with **ABSOLUTELY NO WARRANTY**.*
 
 ## Git clone
 

@@ -4,7 +4,7 @@ CLI UI library for Swift languege
 
 # Licence
 
-(GPL v3)[LICENSE]
+[GPL v3](LICENSE)
 
 # Contacts
 
@@ -13,7 +13,7 @@ Telegram: @AlexandrKosolobovMinsk
 
 # About
 
-Swift Cli UI Lib  Copyright (C) 2025  Kosolobov Alexandr Petrovich
+CLI UI library using swift Copyright (C) 2025  Kosolobov Alexandr Petrovich
 This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it
 under certain conditions.

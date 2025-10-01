@@ -18,7 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import Foundation
 
-// MARK: - Core Protocols
+/// Core Protocols
 protocol Drawable
 {
     func draw(in screenBounds: Rect, renderer: Renderer)
@@ -31,7 +31,7 @@ protocol View: Drawable
     var needsDisplay: Bool { get set }
 }
 
-// MARK: - Core Types
+/// Core Types
 struct Size
 {
     var width: Int
@@ -52,7 +52,7 @@ struct Rect
     var size: Size
 }
 
-// MARK: - ANSI Renderer
+/// ANSI Renderer
 class Renderer
 {
     private var buffer: [String] = []
@@ -84,7 +84,7 @@ class Renderer
     }
 }
 
-// MARK: - ANSI Colors
+/// ANSI Colors
 enum ANSIColor: String {
     case black =    "\u{001B}[30m"
     case red =      "\u{001B}[31m"
@@ -97,7 +97,7 @@ enum ANSIColor: String {
     case reset =    "\u{001B}[0m"
 }
 
-// MARK: - ANSI Functios
+/// ANSI Functios
 enum ANSIFunc: String
 {
     case clear =    "\u{001B}[2J"

@@ -16,7 +16,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-// MARK: - Base View
+/// Base View
 class ViewBase: View
 {
     var frame: Rect
@@ -45,7 +45,7 @@ class ViewBase: View
     }
 }
 
-// MARK: - Label
+/// Label
 class Label: ViewBase
 {
     var text: String
@@ -74,7 +74,7 @@ class Label: ViewBase
 }
 
 
-// MARK: - Button
+/// Button
 class Button: ViewBase
 {
     var title: String
